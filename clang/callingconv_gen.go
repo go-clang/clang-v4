@@ -69,7 +69,7 @@ func (cc CallingConv) Spelling() string {
 		return "CallingConv=Unexposed"
 	}
 
-	return fmt.Sprintf("CallingConv unkown %d", int(cc))
+	return fmt.Sprintf("CallingConv unknown %d", int(cc))
 }
 
 func (cc CallingConv) String() string {

@@ -193,7 +193,7 @@ func (cck CompletionChunkKind) Spelling() string {
 		return "CompletionChunk=VerticalSpace"
 	}
 
-	return fmt.Sprintf("CompletionChunkKind unkown %d", int(cck))
+	return fmt.Sprintf("CompletionChunkKind unknown %d", int(cck))
 }
 
 func (cck CompletionChunkKind) String() string {

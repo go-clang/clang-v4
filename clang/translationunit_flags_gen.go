@@ -129,7 +129,7 @@ func (tuf TranslationUnit_Flags) Spelling() string {
 		return "TranslationUnit=KeepGoing"
 	}
 
-	return fmt.Sprintf("TranslationUnit_Flags unkown %d", int(tuf))
+	return fmt.Sprintf("TranslationUnit_Flags unknown %d", int(tuf))
 }
 
 func (tuf TranslationUnit_Flags) String() string {
